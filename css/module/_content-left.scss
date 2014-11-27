@@ -1,0 +1,37 @@
+.content-left{
+	float: left;
+	width: 570px;
+	padding-left: 40px;
+	margin-top: 40px;
+
+	line-height: 1.5em;
+    margin-bottom: 8px;
+
+    a{
+		color: #1E638D;
+		text-decoration: none;
+		font-weight: bold;
+
+		&:hover{
+			color: #39C;
+		}
+    }
+
+	p{
+		@include column-count(3);
+		@include column-gap(20px);
+		@include column-rule(1px dotted #999);
+		color: #666;
+		font-size: 0.75em;
+		line-height: 1.5em;
+		margin-bottom: 8px;
+	}
+
+    footer{
+		background: url('../img/icon-time.png') no-repeat scroll left center transparent;
+		padding-left: 20px;
+		padding-right: 10px;
+		color: #666;
+		font-size: 0.9em;
+    }
+}

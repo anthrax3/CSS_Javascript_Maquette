@@ -1,0 +1,24 @@
+.footer{
+    clear: left;
+    text-align: center;
+    line-height: 24px;
+    padding-top: 20px;
+    font-size: 0.8em;
+    color: #999;
+    @include text-shadow(1px 1px 2px rgba(0, 0, 0, 0.8));
+
+    ul{
+        width: 150px;
+        margin: 0px auto;
+    }
+
+    a{
+        opacity:0.5;
+        float:left;
+        @include transition(all 0.2s ease-in-out);
+
+        &:hover{
+            opacity:1;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.l-container{
+    width: 920px;
+    margin: 0 auto;
+}
+
+.content{
+    background: url('../img/bg-light.jpg') no-repeat scroll 0% 0% #FFF;
+
+    @include border-radius(10px);
+    @include box-shadow(5px 5px 8px rgba(0, 0, 0, 0.7));
+}
+
+
+.clear{
+    clear: both;
+}

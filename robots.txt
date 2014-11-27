@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Sitemap: http://localhost/rendu/CSS_Javascript_Maquette_3/
+
